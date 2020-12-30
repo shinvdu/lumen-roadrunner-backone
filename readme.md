@@ -6,22 +6,22 @@ curl http://localhost:8880/
 
 # Lumen PHP Framework With Roadrunner
 
-https://blog.incubator4.com/post/lumen-trans-roadrunner/
-https://segmentfault.com/a/1190000015335403
-https://zhuanlan.zhihu.com/p/60599237
-
-https://m.php.cn/article/406108.html
-
-https://github.com/spiral/roadrunner
-https://github.com/spiral/roadrunner-laravel
+* https://blog.incubator4.com/post/lumen-trans-roadrunner/
+* https://segmentfault.com/a/1190000015335403
+* https://zhuanlan.zhihu.com/p/60599237
+* https://m.php.cn/article/406108.html
+* https://github.com/spiral/roadrunner
+* https://github.com/spiral/roadrunner-laravel
 
 # 新建laravel项目
+
 ```
 composer create-project --prefer-dist laravel/lumen lumen-roadrunner-daemon ""
-```
 
 composer require spiral/roadrunner zendframework/zend-diactoros symfony/psr-http-message-bridge	
 composer require symfony/psr-http-message-bridge "^1.2"
+
+```
 
 以下取自第三方: 
 ```
