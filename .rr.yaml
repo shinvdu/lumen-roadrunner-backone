@@ -1,0 +1,15 @@
+http:
+  address:   0.0.0.0:8880
+  maxRequest: 200
+  uploads:
+    forbid: [".php", ".exe", ".bat"]
+  workers:
+    command: "php rr.php"
+    pool:
+      numWorkers: 4
+      maxJobs:  0
+      allocateTimeout: 60
+      destroyTimeout:  60
+static:
+  dir:   "public"
+  forbid: [".php", ".htaccess"]
